@@ -1,0 +1,59 @@
+.login-center{
+    width: 600px;
+    border: 1px solid #3d9544;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.login-center h1{
+    align-self: center;
+    margin: 10px 0;
+}
+
+.login-center label{
+    margin: 5px 0;
+}
+
+.login-center input{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3d9544;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+}
+
+.login-center button{
+    padding: 10px;
+    width: 80%;
+    background-color: #3d9544;
+    border-radius: 10px;
+    margin: 20px 0;
+    align-self: center;
+    font-size: 22px;
+    font-weight: bold;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-center p{
+    align-self: center;
+    font-size: 18px;
+
+}
+
+.login-center p span{
+    font-size: 19px;
+    font-weight: bold;
+    color: #3d9544;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+label{
+    font-weight: bold;
+}

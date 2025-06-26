@@ -1,0 +1,64 @@
+.reviews-box{
+    padding: 10px;
+    border: 1px solid #3d9544;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 60%;
+}
+
+.reviews-box p{
+    color: rgb(96, 96, 96);
+    margin: 10px 15px;
+    
+}
+
+.reviews-box button{
+    margin: 10px 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.reviews-box button.approve{
+    background-color: #3d9544;
+}
+
+.reviews-box button.delete{
+    background-color: #741c1c;
+}
+
+.reviews-box button.answer{
+    background-color: #282f77;
+}
+
+.verify{
+    color: #3d9544;
+}
+
+.notVerify{
+    color: red;
+}
+
+.pr-review{
+    cursor: pointer;
+}
+
+.answer-review button{
+    margin: 0 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #3d9544;
+    cursor: pointer;
+}
+.answer-review{
+    margin-top: 15px;
+}
+.answer-review input{
+    padding: 10px;
+    border: 1px solid #3d9544;
+    border-radius: 10px;
+}

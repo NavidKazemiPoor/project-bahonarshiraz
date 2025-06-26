@@ -1,0 +1,48 @@
+.slider-con {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.slider {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.slider img {
+  width: 100%;
+}
+.line-1 {
+  position: absolute;
+  top: 90%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+}
+.line-2 {
+  position: absolute;
+  top: 90%; /* position the top  edge of the element at the middle of the parent */
+  left: 54%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+}
+.line {
+  width: 30px;
+  cursor: pointer;
+  height: 10px;
+  background-color: lightgrey;
+  border-radius: 50px;
+}
+
+.line.active{
+    background-color: #fff;
+}
+
+.slider img.active{
+    transform: translateX(-300px);
+}
+
+.slide-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

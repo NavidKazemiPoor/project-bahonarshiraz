@@ -1,0 +1,82 @@
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.box-info {
+  background-color: rgb(232, 232, 232);
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.box-info img {
+  width: 140px;
+}
+.ch {
+  background-color: rgb(190, 190, 190);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.new-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.product-h {
+  font-weight: bold;
+  font-size: 20px;
+  color: #3d9544;
+  text-decoration: overline;
+  margin-top: 50px;
+}
+.about-home-novin {
+  width: 600px;
+  border: 1px solid #3d9544;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px auto;
+}
+.about-home-novin button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #3d9544;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border: 0;
+  width: 100%;
+}
+
+
+.mn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mn button{
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    border: 1px solid #3d9544;
+    color: #fff;
+    background-color: #3d9544;
+    border-radius: 10px;
+}
